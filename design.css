@@ -1,0 +1,28 @@
+.center {
+    display: block;
+    max-height: 1500px;
+    max-width: 1500px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+h1 {
+    font-display: italic;
+    text-align: center;
+}
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2018/01/15/15/13/emotions-3084110__340.jpg);
+    background-color: whitesmoke;
+}
+p {
+    text-align: center;
+}
+.smiley {
+    max-height: 50px;
+    max-width: 50px;
+}
+.item {
+   text-align: center;
+
+}
