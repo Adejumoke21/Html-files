@@ -1,0 +1,158 @@
+.header {
+    background-color: goldenrod;
+    
+   
+  
+    
+  
+}
+
+h1 {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.header-content {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-style: italic;
+
+}
+
+.nav-link-lt {
+    display: inline;
+
+    font-size: 30px;
+    
+
+   
+}
+
+.nav-link-right {
+    text-align: right;
+    display: inline;
+    font-size: 30px;
+
+}
+
+.page-logo {
+    text-align: center ;
+}
+
+.btn-header {
+    background-color: maroon;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 3px 3px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+
+.header-img {
+    display: block;   
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    
+}
+    
+.trivia {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 20px;
+}    
+
+.mid_content {
+    font-size: 30px;
+
+}
+
+#Biography {
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+#Testimonial {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 20px;
+    border: 5px solid brown;
+}
+
+.gallerypic {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 5px 10px;
+    border: 1px solid brown;
+}
+
+.gal-title {
+    font-size: 50px;
+    text-align: center;
+    background-color: brown;
+    color: white;
+}
+
+
+.book-s {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#contact-form {
+    border: 7px solid maroon;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 10px 15px;
+    max-width: 600px;
+    height: 600px;
+    font-size: 30px;
+    border-radius: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: space-between;
+}
+
+#submit {
+    background-color: maroon;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+#download-books {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    border: 1px solid maroon;
+    font-weight: 400;
+    font-size: 50px;
+    margin-top: 30px;
+    background-color: white;
+    color: maroon;
+
+}
+
+footer {
+    text-align: center;
+    font-size: 20px;
+}

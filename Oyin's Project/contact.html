@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Oyin's Cafe</title>
+    </head> 
+    <body>
+        <header>
+            <h1>Contact Us</h1>
+            <section aria-label="primary-navigation">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index.html#about">About OC</a></li>
+                            <li><a href="index.html#menu">Our Menu</a></li>
+                            <li><a href="hours.html">Store Hours</a></li>
+                        </ul>
+                    </nav>
+                    <img src="image/peppersoup.jpg" alt="A bowl of hot goat meat peppersoup">
+                    <caption><p>Oyin's delicious peppersoup</p></caption>
+            </section>
+        </header>
+        <main>
+            <section id="form">
+                
+                <form action="https://httpbin.org/post" method="post">
+                    <fieldset>
+                    <legend>Send Us a Message</legend>
+                    <p>
+                    <label for="name">Name: </label>
+                        <input id="name" name="name" type="text" placeholder="your name" required>
+                    </p>
+                    <p>
+                        <label for="email">Email: </label>
+                        <input id="email" name="email" type="text/email" placeholder="your email address" required>
+                    </p>
+                    <p>
+                        <label for="message">Your Message: </label>
+                        <textarea id="message" name="message" type="text" placeholder="We'd love to hear from you"></textarea>
+                    </p>
+                    
+                    <button id="send" formaction="https://httpbin.org/post" method="post">Send</button>
+                    <button id="reset" formaction="https://httpbin.org/post" method="post">Reset</button>  
+                    </fieldset>
+                </form>
+            </section>
+
+            <h1>Our Location</h1>
+            <p><address>
+                6, Adegbite Street, Ifo LGA<br>
+                Ijoko Ota, Ogun State<br>
+                <br>
+                Phone: +234-555-555-5555
+                <br>
+            </address>
+             </p>
+        </main>
+        <footer>
+            <p><a href="#">Back to Top</a></p>
+            <hr>
+            <p>Copyright &copy; Oyin's Cafe 2022</p>
+        </footer>
+    </body>

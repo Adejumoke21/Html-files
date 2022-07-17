@@ -1,0 +1,29 @@
+table, tr, th, td, caption {
+    border: 2px solid #eee;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+
+body {
+    border: 5px solid brown;
+    max-width: 1000px;
+    text-align: auto;
+    margin: auto;
+    font-weight: 100;
+    font-size: 30px;
+    background-color: goldenrod;
+    padding: 40px;
+}
+
+h1 {
+    background-color: #eee;
+}
+
+li {
+    font-size: 150%;
+}
+
+#About {
+    background-color: #eee;
+}
